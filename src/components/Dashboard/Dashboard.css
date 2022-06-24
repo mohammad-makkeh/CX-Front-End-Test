@@ -1,0 +1,41 @@
+.dashboard{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; 
+    padding:2rem;
+}
+
+
+
+.dash-title{
+    font: 3rem 'Quicksand';
+    letter-spacing: 10px;
+    font-weight: 900;
+    color: transparent;
+    background-image: linear-gradient(to right, #f0555d, #a426e5);
+    -webkit-background-clip: text;
+}
+
+p{
+    font:.8rem 'Quicksand';
+    color: #999;
+}
+
+
+.charts-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:6rem;
+    width: 100%;
+}
+
+
+
+
+
+

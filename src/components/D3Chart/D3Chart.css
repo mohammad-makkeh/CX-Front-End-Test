@@ -1,0 +1,72 @@
+
+.chart-container{
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+}
+
+.chart-container img{
+    width:80px
+}
+
+text {
+    font-family: 'Quicksand';
+}
+
+.vAxis path{
+    display: none;
+}
+
+.vAxis g text{
+    fill: #9A9FA4;
+    font-size: 1rem;
+}
+
+.xAxis path{
+    display: none;
+}
+
+
+.xAxis g line{
+    stroke: #9A9FA4;
+    stroke-width: 2;
+}
+.xAxis g text{
+    fill: #9A9FA4;
+    font-size: 1rem;
+}
+
+.supports-hLines line{
+    transform: translate(-30px, 0);
+    stroke: #9A9FA4;
+    opacity: .45;
+}
+
+.supports-hLines > .tick:nth-of-type(1) > line{
+    opacity: 1;
+    stroke-width: 2;
+}
+
+
+.label {
+    text-anchor: middle;
+    text-shadow: 1px 0 0 white,
+                -1px 0 0 white,
+                0 1px 0 white,
+                0 -1px 0 white;
+    font-weight: 600;
+}
+
+
+h1.title{
+    font: 1.8rem 'Quicksand';
+    color: #cfd7df;
+    align-self: flex-start;
+}
+
+
+
+
